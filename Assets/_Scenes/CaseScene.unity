@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -211,6 +211,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &808667391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 808667393}
+  - component: {fileID: 808667392}
+  m_Layer: 0
+  m_Name: PersistentData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &808667392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808667391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee67809596cde644391d98b0e1099d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &808667393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808667391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1880.5979, y: -645.0216, z: 968.2964}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,7 +331,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1891, y: -472, z: -10}
+  m_LocalPosition: {x: -1891, y: -472, z: -11.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -487,5 +530,95 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2ff03bdaa47a542f8a546c9d934aa169, type: 2}
+    - target: {fileID: 1947997484156511973, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947997484156511973, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947997484156511973, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[1].value
+      value: 1.537297
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[1].time
+      value: 1.000104
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[1].inSlope
+      value: 181.95934
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[1].outSlope
+      value: 181.95934
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[1].inWeight
+      value: 0.006717103
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[0].outWeight
+      value: 0.8384499
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[1].weightedMode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[1].outWeight
+      value: 0.47550434
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[2].value
+      value: 0.079956055
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[2].inSlope
+      value: -342.3108
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[2].outSlope
+      value: -342.3108
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[2].weightedMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065277979462339647, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3,
+        type: 3}
+      propertyPath: unlockTiming.m_Curve.Array.data[2].inWeight
+      value: 0.05273851
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ceb96ee6a27bc4ebdbedf5ef4c0f40b3, type: 3}
