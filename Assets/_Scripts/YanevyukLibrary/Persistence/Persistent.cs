@@ -47,10 +47,10 @@ public class Persistent<T> : IPersInterface
     
   
     public void Load(){
-        if(!File.Exists(Application.persistentDataPath + "/"+name+"Save.json")){
+        if(!File.Exists(Application.dataPath + "/"+name+"Save.json")){
             Save();
         }
-        using (StreamReader sr = File.OpenText(Application.persistentDataPath + "/"+name+"Save.json"))
+        using (StreamReader sr = File.OpenText(Application.dataPath + "/"+name+"Save.json"))
         {
             string json = "";
             string s;
@@ -64,7 +64,8 @@ public class Persistent<T> : IPersInterface
 
     public void Save(){
         string dataString = JsonUtility.ToJson(data);
-        System.IO.File.WriteAllText(Application.persistentDataPath + "/"+name+"Save.json", dataString);
+        System.IO.File.WriteAllText(Application.dataPath + "/"+name+"Save.json", dataString);
+        Debug.Log(Application.dataPath);
     
     }
 

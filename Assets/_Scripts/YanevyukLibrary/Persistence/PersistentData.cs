@@ -34,7 +34,7 @@ public class PersistentData : MonoSingleton<PersistentData>
 
     public void OpenSavePath()
     {
-        string itemPath = Application.persistentDataPath+"/";
+        string itemPath = Application.dataPath +"/";
         print(itemPath);
         itemPath = itemPath.Replace(@"/", @"\");   // explorer doesn't like front slashes
         System.Diagnostics.Process.Start("explorer.exe", "/root,"+itemPath);
